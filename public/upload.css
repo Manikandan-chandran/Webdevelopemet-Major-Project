@@ -1,0 +1,56 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #f4f4f4;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/706/34/355/pleasant-lookout-wallpaper-preview.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1;
+}
+
+.container{
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255,255, 0.2);
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 10);
+    width: 230px;
+
+}
+label{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input{
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button{
+    padding: 7px;
+    width: 100px;
+    margin-left:70px ;
+    background-color:#f4f4f4;
+    border-radius: 10px;
+}
+button:hover{
+    letter-spacing: 3px;
+    background-color: #dc5d19 ;
+    color: #ffffff;
+    box-shadow: #dc5d19  0px 7px 29px 0px;
+}
+button:active{
+    letter-spacing: 3px;
+    background-color: #dc5d19 ;
+    color: #ffffff;
+    box-shadow: #dc5d19  0px 7px 29px 0px;
+    transform: translateY(5px);
+}
+
